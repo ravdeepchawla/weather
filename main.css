@@ -1,0 +1,44 @@
+body {
+    width: 300px;
+    margin: auto;
+    padding: 2rem;
+    font-family: "Fira Sans","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.p {
+    margin-bottom: 10px;
+}
+
+.c {
+    text-transform: capitalize;
+}
+
+.temperature {
+    font-size: 96px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.grey {
+    color: #E5E5E5;
+}
+
+.border {
+    border-bottom: 2px solid rgb(241, 93, 70);
+}
+
+.icon {
+    width: 20px;
+    vertical-align: bottom;
+}
+
+.card {
+    width: 150px;
+    position: absolute;
+    bottom: 50%;
+}
