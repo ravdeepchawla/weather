@@ -38,7 +38,94 @@ body {
 }
 
 .card {
-    width: 150px;
-    position: absolute;
-    bottom: 50%;
+    width: 300px;
+    margin-top: 4rem;
+}
+
+.app h1 {
+    font-size: 32px;
+    padding: 2rem 0;
+}
+
+.app form {
+    display: flex;
+    width: 100%;
+    font-family: inherit;
+}
+
+.app form input {
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    width: 100%;
+}
+
+input {
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.app form button {
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(241, 93, 70);
+    font-size: 36px;
+    font-weight: 600;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+}
+
+.app ul {
+    list-style: none;
+    padding: 0;
+}
+
+.app ul li {
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.check {
+    cursor: pointer;
+}
+
+.check:checked {
+    background-color: #E5E5E5;
+}
+
+.task {
+    padding: 0 10px;
+    width: 75%;
+    background: transparent;
+    border: none;
+}
+
+.task:focus {
+    outline: none;
+}
+
+.app ul li i {
+    float: right;
+    cursor: pointer;
+    width: 24px;
+}
+
+.app ul li i:hover {
+    color: rgb(241, 93, 70);
+}
+
+.completed {
+    color: #E5E5E5;
+    text-decoration: line-through;
+}
+
+.trash:after{
+    content: '';
+    display: block;
+    height: 16px;  /*height of icon */
+    width: 16px;  /*width of icon */
+    background: url(./icons8-waste-16.png) no-repeat 0px 0px;
 }
